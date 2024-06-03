@@ -1,7 +1,7 @@
 *{
     box-sizing:border-box;
     margin:0;
-    font-size:25px;
+    font-size:30px;
 }
 
 header > section .header-background{
@@ -39,7 +39,8 @@ main .article h1{
 
 .article .undertitle > a {
     text-decoration:none;
-    color:rgb(83, 146, 255);
+    color:rgb(104, 173, 252);
+    font-weight:700;
 }
 
 .article .photo-description{
@@ -48,7 +49,7 @@ main .article h1{
 
 .article .main-paragraph {
     margin-top:20px;
-    margin-bottom:20px;
+    margin-bottom:50px;
 }
 
 .article .main-paragraph span{
@@ -57,8 +58,8 @@ background-color:yellow;
 
 .article table {
     width:99%;
-    margin-top:20px;
-    margin-bottom:20px;
+    margin-top:50px;
+    margin-bottom:40px;
     margin-right:5px;
     border-collapse: collapse;
 }
@@ -69,19 +70,36 @@ background-color:yellow;
 }
 
 .article .light-blue {
-
     background-color:lightblue;
-
 }
 
 .article td {
-
     width:500px;
 }
 
+.related-articles p{
+    font-size:35px;
+    margin-bottom:20px;
+    color:grey;
+}
 
+.related-articles .image-with-title{
+    width:312px;
+    height:208px;
+    border:1px solid black;
+    margin-bottom:15px;
+}
 
+.image-with-title span{
+    display:inline-block;
+    color:white;
+    margin:10px;
+    margin-left:15px;
+}
 
-
-
-
+.image-with-title.img1{
+    background-image: url("../img/monitor.jpg");
+}
+.image-with-title.img2{
+    background-image: url("../img/graph.jpg");
+}
