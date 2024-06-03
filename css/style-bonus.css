@@ -37,6 +37,8 @@ main .article h1{
     font-weight:600;
 }
 
+
+
 .undertitle.date-time{
     font-size:15px;
     margin-bottom:20px;
@@ -46,6 +48,11 @@ main .article h1{
     text-decoration:none;
     color:rgb(104, 173, 252);
     font-weight:700;
+}
+
+.article img{
+    display:block;
+    margin-bottom:5px;
 }
 
 .article .photo-description{
