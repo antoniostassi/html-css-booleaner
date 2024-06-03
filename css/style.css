@@ -77,6 +77,8 @@ background-color:yellow;
     width:500px;
 }
 
+/* -- */
+/* Related Articles */
 .related-articles p{
     font-size:35px;
     margin-bottom:20px;
@@ -90,6 +92,7 @@ background-color:yellow;
     margin-bottom:15px;
 }
 
+/* images */
 .image-with-title span{
     display:inline-block;
     color:white;
