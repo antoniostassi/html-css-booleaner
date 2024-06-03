@@ -1,6 +1,7 @@
 *{
     box-sizing:border-box;
     margin:0;
+    font-size:25px;
 }
 
 header > section .header-background{
@@ -46,5 +47,13 @@ main .article h1{
     font-size:22px;
 }
 
+.article .main-paragraph {
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+.article .main-paragraph span{
+background-color:yellow;
+}
 
 
