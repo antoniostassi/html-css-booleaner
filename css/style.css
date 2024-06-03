@@ -8,7 +8,7 @@ header > section .header-background{
     width: 100%;
     height: 200px;
     background-image: url("../img/pattern.png");
-    background-color:rgb(83, 146, 255);
+    background-color:rgb(78, 160, 255);
 }
 
 section .header-background img{
