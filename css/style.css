@@ -17,21 +17,33 @@ section .header-background img{
     margin-left:15px;
 }
 
+.article{
+    margin-left:10px;
+}
+
 main .article h1{
     font-size:80px;
 }
 
-.article p {
+.article .undertitle {
     font-size: 25px;
     margin-left:5px;
-    color:lightgray;
+    color:gray;
     font-weight:600;
 }
 
-.article p > a {
+.undertitle.date-time{
+    font-size:15px;
+    margin-bottom:20px;
+}
 
+.article .undertitle > a {
     text-decoration:none;
     color:rgb(83, 146, 255);
+}
+
+.article .photo-description{
+    font-size:22px;
 }
 
 
